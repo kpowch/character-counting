@@ -8,13 +8,12 @@ function countLetters(input) {
 
     if (outputObject[character]) { // if there's a number there
       outputObject[character] += 1;
-    }
-    else {
+    } else {
       outputObject[character] = 1;
     }
 
   }
   return outputObject;
-};
+}
 
 console.log(countLetters("Lighthouse in the house"));

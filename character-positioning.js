@@ -18,10 +18,9 @@ function countLetters(input) {
     else {
       outputObject[character] = [i];
     }
-
   }
   return outputObject;
-};
+}
 
 testString = 'Lighthouse in the house';
 console.log('Input length:', testString.length);
